@@ -11,7 +11,7 @@ h1 {
   color: orange;
 }
 
-section {
+.flexible-container {
   display: flex;
   padding-top: 150px;
 }
@@ -44,4 +44,39 @@ section {
   background-image: url("./images/dream-bg.png");
   background-position: right;
   background-repeat: no-repeat;
+}
+
+.box-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 2px 10px 40px gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+.box-item:last-child {
+  border-left: 9px solid blue;
+}
+
+.box-item:first-child {
+  border-left: 9px solid #28b9e5;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.experiance {
+  background-image: url("./images//exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 150px;
+}
+
+footer {
+  padding-top: 150px;
+}
+
+footer p {
+  text-align: center;
 }
